@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body class="container my-5">
+    <div>
+        <div class="card" style="width: 25rem; height: 20rem; background-color: darkgrey;">
+            <div>
+                <div class="card-body text-center"">
+                    <h2 style=" color: whitesmoke;text-shadow: 2px 2px 2px black;">
+                    Resultado: <span class="resultado"></span>
+                    </h2>
+                    <div>
+                        <div>
+                            <div style="padding-top: 30px;">
+                                <div style="padding-bottom: 15px;">
+                                    <input id="num1" type="number" placeholder="Ingresa un número" /><br>
+                                </div>
+                                <div>
+                                    <input id="num2" type="number" placeholder="Ingresa un número" />
+                                </div>
+                            </div>
+                            <div style="padding-top: 5px;">
+                                <p id="resultado"
+                                    style="color: whitesmoke;text-shadow: 2px 2px 2px black; font-weight: bolder; padding-top: 10px;">
+                                    Resultado: </p>
+                                <input class="btn btn-danger" type="button" value="Sumar"
+                                    onclick="operaciones('sumar');" />
+                                <input class="btn btn-danger" type="button" value="Restar"
+                                    onclick="operaciones('restar');" />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./Assets/JS/Script3.js"></script>
+</body>
+
+</html>
